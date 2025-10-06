@@ -40,7 +40,7 @@ public class SecurityConfig
 		
 		UserDetails chetan = User
 				             .withUsername("chetan")
-				             .password("{noop}pass1")
+				             .password("{noop}")
 				             .roles("User")
 				             .build();
 		
